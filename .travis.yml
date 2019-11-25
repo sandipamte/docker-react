@@ -7,3 +7,4 @@ before_script:
 
 script:
   - docker run sandipamte/docker-react npm run test -- --coverage
+  - pwd
