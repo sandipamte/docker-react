@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Learning feature branch
+          This is my first Docker based application
         </p>
         <a
           className="App-link"
@@ -22,3 +22,5 @@ function App() {
     </div>
   );
 }
+
+export default App;
