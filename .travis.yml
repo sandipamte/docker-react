@@ -1,0 +1,9 @@
+sudo: required
+services:
+  - docker
+
+before_script:
+  - docker build -t MYIMAGE -f Dockerfile.dev
+
+script:
+  - docker rum MYIMAGE npm run test -- --coverage
